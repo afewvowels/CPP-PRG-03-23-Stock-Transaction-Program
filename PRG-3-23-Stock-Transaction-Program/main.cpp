@@ -39,9 +39,9 @@ int main()
     
     cout << setprecision(2) << fixed << showpoint;
     
-    cout << "$" << setw(10) << fltJoeStockInitialLessCommission << endl;
-    cout << "$" << setw(10) <<  fltJoeStockFinalLessCommission << endl;
-    cout << "$" << setw(10) <<  fltJoeStockProfit << endl;
+    cout << setw(42) << "Joe's initial cost less commission: $" << setw(10) << fltJoeStockInitialLessCommission << endl;
+    cout << setw(42) << "Joe's final cost less commission: $" << setw(10) <<  fltJoeStockFinalLessCommission << endl;
+    cout << setw(42) << "Joe's profit total: $" << setw(10) <<  fltJoeStockProfit << endl;
     
     return 0;
 }
